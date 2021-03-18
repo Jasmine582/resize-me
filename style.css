@@ -1,0 +1,33 @@
+/* DEFAULT STYLES TO MAKE LESSON PRETTY-ISH */
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #3b3b3b;
+  font-size: 18px;
+}
+
+.resize-me {
+  text-align: center;
+  margin: 0 auto;
+  padding: 16px;
+  background-color: LightPink;
+  box-sizing: border-box;
+  /* Add default width here */
+  width: 90%;
+}
+/* Add first media query here */
+@media (min-width: 640px) {
+  .resize-me {
+    width: 50%;
+}
+/* Add second media query here */
+@media (min-width: 1024px) {
+  .resize-me {
+    width: 30%;
+}
